@@ -190,3 +190,6 @@ obj-$(CONFIG_SENSORS_SSC)	+= sensors/
 obj-$(CONFIG_ESOC)              += esoc/
 # GNSS driver
 obj-$(CONFIG_GNSS_SIRF)		+= gnsssirf/
+
+#nubia add
+obj-$(CONFIG_NUBIA_HW_VERSION)	+= nubia_hw_version/
