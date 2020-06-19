@@ -174,5 +174,9 @@ obj-$(CONFIG_SENSORS_XGENE)	+= xgene-hwmon.o
 
 obj-$(CONFIG_PMBUS)		+= pmbus/
 
+################################################# NUBIA SENSOR START
+obj-$(CONFIG_NUBIA_SENSORS)			+= nubia_sensors/
+################################################# NUBIA SENSOR END
+
 ccflags-$(CONFIG_HWMON_DEBUG_CHIP) := -DDEBUG
 
